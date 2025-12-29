@@ -195,6 +195,10 @@
           "name": "2D-offset-",
           "ioValues": [
             {
+              "name": "shape",
+              "ioValue": 10
+            },
+            {
               "name": "offset",
               "ioValue": 0.1
             }
@@ -242,6 +246,10 @@
               "uniqueID": "id-51",
               "ioValues": [
                 {
+                  "name": "input1",
+                  "ioValue": 10
+                },
+                {
                   "name": "offset",
                   "ioValue": 0.1
                 }
@@ -255,6 +263,10 @@
               "y": 0.28012048192771083,
               "uniqueID": "id-52",
               "ioValues": [
+                {
+                  "name": "input1",
+                  "ioValue": 10
+                },
                 {
                   "name": "offset",
                   "ioValue": 0.1
@@ -353,27 +365,9 @@
           },
           "unitsKey": "Inches",
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.20672268907563027,
-          "y": 0.7794561933534743,
-          "uniqueID": "id-75",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 10
-            }
-          ]
         }
       ],
-      "allConnectors": [
-        {
-          "ap2Name": "shape",
-          "ap1ID": "id-75",
-          "ap2ID": "id-54"
-        }
-      ],
+      "allConnectors": [],
       "fileTypeVersion": 1
     },
     {
