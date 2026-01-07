@@ -259,7 +259,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-extrude-circle-42.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-0--50-2",
+                "geometry": "move-extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-0--50-2",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -320,14 +320,14 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.20333333333333334,
-          "y": 0.7915407854984895,
+          "x": 0.202,
+          "y": 0.7401812688821753,
           "uniqueID": "id-201",
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 85,
-              "currentEquation": "85"
+              "ioValue": 100,
+              "currentEquation": "100"
             }
           ]
         },
