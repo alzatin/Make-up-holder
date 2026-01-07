@@ -44,8 +44,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.30333333333333334,
-      "y": 0.1933534743202417,
+      "x": 0.3506666666666666,
+      "y": 0.22658610271903323,
       "uniqueID": "id-4",
       "name": "Tray",
       "ioValues": [
@@ -1043,8 +1043,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.24866666666666667,
-      "y": 0.4984894259818732,
+      "x": 0.252,
+      "y": 0.5347432024169184,
       "uniqueID": "id-1014",
       "name": "Jar",
       "ioValues": [
@@ -1101,8 +1101,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.3302521008403361,
-          "y": 0.2779456193353474,
+          "x": 0.3273333333333333,
+          "y": 0.2809667673716012,
           "uniqueID": "id-1027",
           "ioValues": [
             {
@@ -1111,7 +1111,8 @@
             },
             {
               "name": "height",
-              "ioValue": 100
+              "ioValue": 150,
+              "currentEquation": "150"
             }
           ]
         },
@@ -1139,13 +1140,14 @@
             },
             {
               "name": "height",
-              "ioValue": 100
+              "ioValue": 200,
+              "currentEquation": "200"
             }
           ]
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.47731092436974787,
+          "x": 0.47800000000000004,
           "y": 0.31722054380664655,
           "uniqueID": "id-1041",
           "name": "Fillet",
@@ -1607,7 +1609,23 @@
             },
             {
               "name": "zDist",
-              "ioValue": 7
+              "ioValue": 5
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.6066666666666667,
+          "y": 0.2990936555891239,
+          "uniqueID": "id-1392",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         }
@@ -1634,9 +1652,24 @@
           "ap2ID": "id-1162"
         },
         {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-1041",
+          "ap2ID": "id-1392"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-1162",
           "ap2ID": "id-1386"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-1386",
+          "ap2ID": "id-1392"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1392",
+          "ap2ID": "id-1016"
         }
       ],
       "fileTypeVersion": 1
