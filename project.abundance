@@ -800,10 +800,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 0.95
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -846,10 +842,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1119,15 +1111,15 @@
         {
           "atomType": "Input",
           "x": 0.031349999999999996,
-          "y": 0.4501510574018127,
+          "y": 0.304,
           "uniqueID": "id-1021",
           "name": "tray_length",
           "type": "number"
         },
         {
           "atomType": "Circle",
-          "x": 0.19526143790849676,
-          "y": 0.39879154078549844,
+          "x": 0.2173202614379085,
+          "y": 0.5226586102719033,
           "uniqueID": "id-1024",
           "ioValues": [
             {
@@ -1470,10 +1462,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 0.9
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1516,10 +1504,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
