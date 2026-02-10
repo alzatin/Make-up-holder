@@ -800,10 +800,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 0.95
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -846,10 +842,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1126,13 +1118,13 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.19444444444444442,
-          "y": 0.4652567975830816,
+          "x": 0.18999999999999997,
+          "y": 0.47432024169184284,
           "uniqueID": "id-1024",
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 100,
+              "ioValue": 90.9090909090909,
               "currentEquation": "tray_width/1.1"
             }
           ]
@@ -1470,10 +1462,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 0.9
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1516,10 +1504,6 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1650,11 +1634,6 @@
         }
       ],
       "allConnectors": [
-        {
-          "ap2Name": "diameter",
-          "ap1ID": "id-1018",
-          "ap2ID": "id-1024"
-        },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-1024",
