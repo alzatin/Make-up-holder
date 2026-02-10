@@ -68,6 +68,22 @@
       ]
     },
     {
+      "atomType": "Assembly",
+      "x": 0.6326666666666667,
+      "y": 0.5317220543806647,
+      "uniqueID": "id-3276",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
       "x": 0.43507030603804797,
       "y": 0.1903323262839879,
@@ -576,6 +592,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 0.95
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -618,6 +638,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1471,6 +1495,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 0.9
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1513,6 +1541,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1679,11 +1711,6 @@
           "ap2ID": "id-1392"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-1392",
-          "ap2ID": "id-1016"
-        },
-        {
           "ap2Name": "geometry1",
           "ap1ID": "id-1041",
           "ap2ID": "id-1392"
@@ -1695,22 +1722,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6326666666666667,
-      "y": 0.5317220543806647,
-      "uniqueID": "id-3276",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -1735,6 +1746,11 @@
       "ap2ID": "id-3276"
     },
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-3276",
+      "ap2ID": "id-2"
+    },
+    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-4",
       "ap2ID": "id-3276"
@@ -1743,11 +1759,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-1014",
       "ap2ID": "id-1604"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-3276",
-      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
