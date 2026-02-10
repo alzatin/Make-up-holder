@@ -69,8 +69,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.19272125723738626,
-      "y": 0.7794561933534743,
+      "x": 0.1968569065343259,
+      "y": 0.7854984894259819,
       "uniqueID": "id-2043",
       "ioValues": [
         {
@@ -888,6 +888,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 0.95
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -930,6 +934,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1160,8 +1168,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.26881720430107525,
-      "y": 0.5377643504531722,
+      "x": 0.23986765922249792,
+      "y": 0.525679758308157,
       "uniqueID": "id-1014",
       "name": "Jar",
       "ioValues": [
@@ -1245,14 +1253,14 @@
             },
             {
               "name": "height",
-              "ioValue": 200
+              "ioValue": 100
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.5465686274509804,
-          "y": 0.6586102719033233,
+          "x": 0.5599669148056245,
+          "y": 0.4984894259818732,
           "uniqueID": "id-1386",
           "ioValues": [
             {
@@ -1497,8 +1505,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.4433416046319272,
-          "y": 0.6163141993957704,
+          "x": 0.4441687344913151,
+          "y": 0.7129909365558912,
           "uniqueID": "id-1162",
           "name": "Scale",
           "ioValues": [
@@ -1550,6 +1558,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 0.9
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1592,6 +1604,10 @@
                 {
                   "name": "scaleFactor",
                   "ioValue": 3
+                },
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -1719,9 +1735,37 @@
           },
           "unitsKey": "Unitless",
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.19933829611248965,
+          "y": 0.7734138972809668,
+          "uniqueID": "id-2494",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 200
+            },
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "x + y"
         }
       ],
       "allConnectors": [
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-1018",
+          "ap2ID": "id-1068"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-1021",
+          "ap2ID": "id-2494"
+        },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-1024",
