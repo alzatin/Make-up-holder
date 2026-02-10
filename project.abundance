@@ -30,15 +30,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.19,
+      "x": 0.0264,
+      "y": 0.16,
       "uniqueID": "id-8",
       "name": "tray_width"
     },
     {
       "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.304,
+      "x": 0.0264,
+      "y": 0.256,
       "uniqueID": "id-11",
       "name": "tray_length"
     },
@@ -85,8 +85,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3537581699346405,
-      "y": 0.26586102719033233,
+      "x": 0.3010752688172043,
+      "y": 0.21450151057401814,
       "uniqueID": "id-4",
       "name": "Tray",
       "ioValues": [
@@ -96,7 +96,7 @@
         },
         {
           "name": "tray_length",
-          "ioValue": 200
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -157,13 +157,7 @@
           "atomType": "Circle",
           "x": 0.154,
           "y": 0.6193353474320241,
-          "uniqueID": "id-153",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 100
-            }
-          ]
+          "uniqueID": "id-153"
         },
         {
           "atomType": "Extrude",
@@ -196,11 +190,6 @@
               "ioValue": 0
             },
             {
-              "name": "yDist",
-              "ioValue": 66.66666666666667,
-              "currentEquation": "tray_width/1.5"
-            },
-            {
               "name": "zDist",
               "ioValue": 2
             }
@@ -208,16 +197,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.19,
+          "x": 0.0264,
+          "y": 0.16,
           "uniqueID": "id-166",
           "name": "tray_width",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.304,
+          "x": 0.0264,
+          "y": 0.256,
           "uniqueID": "id-169",
           "name": "tray_length",
           "type": "number"
@@ -253,11 +242,6 @@
               "ioValue": 0
             },
             {
-              "name": "yDist",
-              "ioValue": -50,
-              "currentEquation": "-tray_width/2"
-            },
-            {
               "name": "zDist",
               "ioValue": 2
             }
@@ -271,57 +255,11 @@
           "ioValues": [
             {
               "name": "Shape 2",
-              "ioValue": {
-                "geometry": "move-extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-66.66666666666667-2",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": null
             },
             {
               "name": "Shape 3",
-              "ioValue": {
-                "geometry": "move-extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-0--50-2",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": null
             }
           ],
           "unionType": "Fusion"
@@ -388,18 +326,14 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.21486928104575165,
-          "y": 0.30513595166163143,
+          "x": 0.2216708023159636,
+          "y": 0.311178247734139,
           "uniqueID": "id-915",
           "name": "Rounded-rectangle-rep",
           "ioValues": [
             {
-              "name": "width",
-              "ioValue": 100
-            },
-            {
               "name": "length",
-              "ioValue": 200
+              "ioValue": 10
             },
             {
               "name": "radius",
@@ -431,14 +365,6 @@
               "uniqueID": "id-910",
               "ioValues": [
                 {
-                  "name": "width",
-                  "ioValue": 100
-                },
-                {
-                  "name": "length",
-                  "ioValue": 200
-                },
-                {
                   "name": "rad",
                   "ioValue": 41
                 },
@@ -452,32 +378,32 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-911",
               "name": "width",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-912",
               "name": "length",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.418,
+              "x": 0.0264,
+              "y": 0.352,
               "uniqueID": "id-913",
               "name": "radius",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.532,
+              "x": 0.0264,
+              "y": 0.44799999999999995,
               "uniqueID": "id-914",
               "name": "height",
               "type": "number"
@@ -617,16 +543,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-938",
               "name": "3D-Shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-939",
               "name": "Fillet val",
               "type": "number"
@@ -777,16 +703,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-971",
               "name": "Geometry",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-972",
               "name": "Scale Factor",
               "type": "number"
@@ -1102,30 +1028,30 @@
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.19,
+          "x": 0.0264,
+          "y": 0.16,
           "uniqueID": "id-1018",
           "name": "tray_width",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.031349999999999996,
-          "y": 0.304,
+          "x": 0.0264,
+          "y": 0.256,
           "uniqueID": "id-1021",
           "name": "tray_length",
           "type": "number"
         },
         {
           "atomType": "Circle",
-          "x": 0.18999999999999997,
-          "y": 0.47432024169184284,
+          "x": 0.18775847808105872,
+          "y": 0.5075528700906344,
           "uniqueID": "id-1024",
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 90.9090909090909,
-              "currentEquation": "tray_width/1.1"
+              "ioValue": 100,
+              "currentEquation": "tray_width"
             }
           ]
         },
@@ -1187,8 +1113,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.6037581699346405,
-          "y": 0.2990936555891239,
+          "x": 0.6972704714640199,
+          "y": 0.43202416918429004,
           "uniqueID": "id-1392",
           "ioValues": [
             {
@@ -1203,8 +1129,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.47875816993464054,
-          "y": 0.3081570996978852,
+          "x": 0.47808105872622003,
+          "y": 0.3202416918429003,
           "uniqueID": "id-1041",
           "name": "Fillet",
           "ioValues": [
@@ -1279,16 +1205,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-1036",
               "name": "3D-Shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-1037",
               "name": "Fillet val",
               "type": "number"
@@ -1409,8 +1335,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.43533333333333335,
-          "y": 0.5861027190332326,
+          "x": 0.4433416046319272,
+          "y": 0.6163141993957704,
           "uniqueID": "id-1162",
           "name": "Scale",
           "ioValues": [
@@ -1439,16 +1365,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "id-1153",
               "name": "Geometry",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.031349999999999996,
-              "y": 0.304,
+              "x": 0.0264,
+              "y": 0.256,
               "uniqueID": "id-1154",
               "name": "Scale Factor",
               "type": "number"
@@ -1676,22 +1602,83 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.3374689826302729,
+      "y": 0.5045317220543807,
+      "uniqueID": "id-2032",
+      "name": "Molecule",
+      "ioValues": [
+        {
+          "name": "tray_width",
+          "ioValue": 100
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-2034",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.16,
+          "uniqueID": "id-2036",
+          "name": "tray_width",
+          "type": "number"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.34987593052109184,
+          "y": 0.4924471299093656,
+          "uniqueID": "id-2039",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 100
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-2036",
+          "ap2ID": "id-2039"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-2039",
+          "ap2ID": "id-2034"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
     {
       "ap2Name": "tray_width",
       "ap1ID": "id-8",
-      "ap2ID": "id-4"
+      "ap2ID": "id-1014"
     },
     {
       "ap2Name": "tray_width",
       "ap1ID": "id-8",
-      "ap2ID": "id-1014"
+      "ap2ID": "id-2032"
     },
     {
-      "ap2Name": "tray_length",
-      "ap1ID": "id-11",
+      "ap2Name": "tray_width",
+      "ap1ID": "id-8",
       "ap2ID": "id-4"
     },
     {
